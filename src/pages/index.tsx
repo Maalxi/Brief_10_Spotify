@@ -10,6 +10,7 @@ import { useMediaQuery } from '@mantine/hooks'
 import { Breakpoint, maxWidth } from '../utils/breakpoints'
 import ArtistItem from '../components/ArtistItem/ArtistItem'
 import Head from 'next/head'
+import TopArtists from '../components/SplashItem/SplashItem'
 
 const useStyles = createStyles({
   splashItems: {

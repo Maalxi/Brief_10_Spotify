@@ -1,5 +1,13 @@
 ## Getting Started
 
+Download the project
+
+```bash
+git clone git@github.com:Maalxi/Brief_10_Spotify.git
+```
+
+Install dependencies
+
 ```bash
 npm install
 ```

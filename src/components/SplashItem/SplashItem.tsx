@@ -96,6 +96,10 @@ const TopArtists: FunctionComponent = () => {
     }
   }, []);
 
+    if (!accessToken) {
+    return <p>Vous devez être connecté pour voir vos artistes préférés. Veuillez vous connecter.</p>;
+  }
+
   return (
     <>
       {topArtists.map((artist, index) => (
